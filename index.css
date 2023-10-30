@@ -1,0 +1,51 @@
+body {
+    color: white;
+   background-color: black; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+}
+.center {
+    text-align: center;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+  
+}
+footer img {
+    width: 20px;
+    height: 20px;   
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
