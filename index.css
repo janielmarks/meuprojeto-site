@@ -3,13 +3,32 @@ body {
   background-color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
+/* celulares */
 @media (max-width: 450px) {
   h1 {
     color: rgb(10, 114, 10);
   }
   h2 {
     color: rgb(10, 114, 10);
+  }
+}
+
+/* tabelets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    color: red;
+  }
+  h2 {
+    color: red;
+  }
+}
+
+@media print {
+  body {
+    color: black;
+    body {
+      background-color: white;
+    }
   }
 }
 

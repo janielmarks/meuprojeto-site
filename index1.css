@@ -1,0 +1,21 @@
+body {
+  color: white;
+  background-color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 50px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
+a {
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
